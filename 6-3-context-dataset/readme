@@ -1,0 +1,3 @@
+# combine all train files and test files
+# dataset dir
+command line: cat context_next/train_* > context_next/train&&cat context_next/test_* > context_next/test&&cat context_acc/train_* > context_acc/train&&cat context_acc/test_* > context_acc/test

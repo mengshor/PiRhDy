@@ -1,0 +1,18 @@
+# first step: combine all melody_train, harmony_train and label_train
+# token_dataset dir
+command line: cat melody_train_* > melody_train&&cat harmony_train_* > harmony_train&&cat label_train_* > label_train
+
+# second step: combine melody_train, harmony_train and label_train
+# token_dataset dir
+
+command line: paste -d, melody_train harmony_train label_train > train
+
+
+# third step: combine all melody_test, harmony_test and label_test
+# token_dataset dir
+command line: cat melody_test_* > melody_test&&cat harmony_test_* > harmony_test&&cat label_test_* > label_test
+
+# fourth step: combine melody_test, harmony_test and label_test
+# token_dataset dir
+
+command line: paste -d, melody_test harmony_test label_test > test
