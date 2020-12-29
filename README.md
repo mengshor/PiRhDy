@@ -42,22 +42,21 @@ step 5:
 
         1) generate datasets for token modeling dataset 
         
-        2) token modeling, containing pre-trained models
+        2) token modeling
+           **pre-trained models are in pre-trained-models**
 
 
 step 6: 
 
 
-        1) transform sequence to bars 
+        1) transform sequence to bars         
         
+        2) transform bars into phrases        
         
-        2) transform bars into phrases
+        3) generate dataset for context modeling         
         
-        
-        3) generate dataset for context modeling 
-        
-        
-        4) context modeling and downstream tasks, embeddings pre-trained through token modeling is in "embeddings", models fine-tuned by context modeling is in "pre-trained models".
+        4) context modeling and downstream tasks
+           **embeddings pre-trained through token modeling are in "embeddings", models fine-tuned by context modeling are in "pre-trained models".**
         
 
 
