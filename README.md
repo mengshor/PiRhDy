@@ -1,10 +1,8 @@
-# PiRhDy
-code for our ACM MM 2020 best paper "PiRhDy: Learning Pitch-, Rhythm-, and Dynamics-aware Embeddings for Symbolic Music". 
-
+# PiRhDy: Learning Pitch-, Rhythm-, and Dynamics-aware Embeddings for Symbolic Music (ACM MM 2020 BEST PAPER)
 
 We suggest you to generate all datasets by yourself, as the datasets are too huge to deliver. 
 
-Any further question, pls email lianghr@mail.nankai.edu.cn (first author) or wenqianglei@gamil.com (corresponding author).
+Any further question, pls email **lianghr@mail.nankai.edu.cn (first author)** or **wenqianglei@gamil.com (corresponding author)**.
 
 step 1: normalize original midi files: time normalization, key tranformation, etc.
 
