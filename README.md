@@ -3,27 +3,20 @@
 <https://dl.acm.org/doi/pdf/10.1145/3394171.3414032> or <https://arxiv.org/abs/2010.08091>
 
 For citation:
-        @inproceedings{
-        
-        
-                                liang2020pirhdy,
-        
-        
-                                title={PiRhDy: Learning Pitch-, Rhythm-, and Dynamics-aware Embeddings for Symbolic Music},
-                        
-                        
-                                author={Liang, Hongru and Lei, Wenqiang and Chan, Paul Yaozhu and Yang, Zhenglu and Sun, Maosong and Chua, Tat-Seng},
-                       
-                       
-                                booktitle={Proceedings of the 28th ACM International Conference on Multimedia},
-                       
-                       
-                                pages={574--582},
-                       
-                       
-                                year={2020}
-                       
-                       
+        @inproceedings{        
+
+                                liang2020pirhdy,        
+
+                                title={PiRhDy: Learning Pitch-, Rhythm-, and Dynamics-aware Embeddings for Symbolic Music},                        
+
+                                author={Liang, Hongru and Lei, Wenqiang and Chan, Paul Yaozhu and Yang, Zhenglu and Sun, Maosong and Chua, Tat-Seng},                       
+
+                                booktitle={Proceedings of the 28th ACM International Conference on Multimedia},                       
+
+                                pages={574--582},                      
+
+                                year={2020}                       
+
                        }
 
 *We suggest you to generate all datasets by yourself, as the datasets are too huge to deliver. 
