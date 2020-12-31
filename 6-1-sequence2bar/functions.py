@@ -79,6 +79,8 @@ def split_sequence(name):
             current_index += 1
         meta_dict['time_info'] = time_info
         song_matrix = copy.deepcopy(melody_info)
+        for idx, track in enumerate(tracks):
+            song_matrix = np.vstack((song_matrix, track))
         bars = get_bars(time_info, song_matrix)
         #  filter songs with no more than 8 bars
         if len(bars) >= 8:
