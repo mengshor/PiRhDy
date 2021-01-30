@@ -108,7 +108,7 @@ def genre_classification(task_name='genre_a', phrase_model='next'):
             model = genre_info.encoder()
             model.compile(optimizer='rmsprop',
                           loss='binary_crossentropy',
-                          metrics=[tf.keras.metrics.AUC(), f1, 'accuracy'],
+                          metrics=[tf.keras.metrics.AUC(multi_label=True), f1, 'accuracy'],
                           experimental_run_tf_function=False)
             my_checkpoint = ModelCheckpoint(
                 '{}weights.{}-{}.h5'.format(model_path, turn_id, split_id),
