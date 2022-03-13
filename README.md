@@ -23,7 +23,7 @@ For citation:
 
 *We suggest you to generate all datasets by yourself, as the datasets are too huge to deliver. *
 
-Any further question, pls email **lianghr@mail.nankai.edu.cn (first author)** or **wenqianglei@gmail.com (corresponding author)**.
+Any further question, pls email **lianghongru@scu.edu.cn (first author)** or **wenqianglei@scu.edu.com (corresponding author)**.
 
 step 1: normalize original midi files: time normalization, key tranformation, etc.
 
